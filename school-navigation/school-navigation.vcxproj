@@ -153,6 +153,15 @@
   <ItemGroup>
     <ClCompile Include="school-navigation.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="school-navigation.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="save.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
